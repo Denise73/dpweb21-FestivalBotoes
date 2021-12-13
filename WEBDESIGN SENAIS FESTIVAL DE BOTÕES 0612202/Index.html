@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Festival de Botões</title>
+
+    <link rel="stylesheet" href="./Style.css">
+</head>
+<body>
+    <!-- div#manipula>p*2-->
+    <div id="manipula">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. In ipsam provident itaque quaerat nisi laborum sapiente accusantium fugit atque nam, aspernatur maxime officiis assumenda impedit fugiat repellendus sequi. Cumque, earum!
+        </p>
+        <p class="paragrafo">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde, saepe. Illo repudiandae aperiam reprehenderit saepe tenetur recusandae omnis accusamus distinctio totam amet corporis eos, error facilis molestias nam hic quae?
+        </p>
+    </div>
+    <br>
+    <hr>
+
+    <h2 class="chamada">Primeiro H2</h2>
+    <h2 class="chamada">Segundo H2</h2>
+    <h2 class="chamada">Terceiro H2</h2>
+
+    <div id="botoes">
+        <!--Botão 1 - Recarregar Nossa Página-->
+        <!--Quando clicar no botão ele recarrega a janela aberta (window)-->
+        <button onclick="window.location.reload()"> Atualizar Página</button>
+
+        <!--Botão 2 - Mudar o tamanho da fonte-->
+        <button onclick="mudarTamanhoFonte()">Mudar Tamanho a Fonte</button>
+
+        <!--Botão 3 - Mudar a cor da fonte-->
+        <button onclick="mudarCorFonte()">Mudar a Cor da Fonte</button>
+
+        <button onclick="mudarCorFundo()">Mudar a Cor do Fundo</button>
+
+        <button onclick="fonteItalico()"> Deixar em Itálico</button>
+
+        <button onclick="fonteNegrito()"> Deixar em Negrito</button>
+
+        <button onclick="adicionaBorda()"> Adicionar Borda</button>
+
+        <button onclick="tirarBorda()"> Tirar Borda</button>
+
+        <button onclick="tirarDiv()"> Tirar Div</button>
+
+        <button onclick="incluirDiv()"> Incluir Div</button>
+
+        <button onclick="mudarSegundaChamada()">Mudar texto do segundo H2</button>
+
+        <button onclick="mudarFundoParagrafo()">Mudar cor de fundo Paragrafo</button>
+
+        <button onclick="mudarCorBotao()">Mudar cor de um botão</button>
+
+        <button onclick="mudarCorTodosBotoes()">Mudar cor de todos os botões</button>
+
+        <button onclick="contarBotoes()">Contar elementos da classe botões</button>
+
+        <button onclick="inserirTexto('teste')">Inserir texto no paragrafo</button>
+
+        <button onclick="mudarFundoPagina()">Mudar cor de fundo página</button>
+
+        <button onclick="mudarImagem()">Mudar imagem</button>
+
+        <button onclick="acionarTudo()">Acionar (quase) tudo</button>
+
+        
+
+    </div>
+
+    <img src="xuxa.jpg" alt="Computador da Xuxa">
+
+    
+    <script src="./Index.js"></script>
+
+</body>
+</html>
